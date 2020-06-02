@@ -2,19 +2,20 @@
 
 def is_even(n):
     if(n % 2) == 0:
-        print("Even")
+        print(f"\n {n} is Even \n")
         return True
     else:
-        print("Odd")
+        print(f"\n {n} is Odd \n")
 
 # Read a number from the keyboard
 num = input("Enter a number: ")
 num = int(num)
 
 # Print out "Even!" if the number is even. Otherwise print "Odd"
-
-
-is_even(num)
+while num!= 777:
+    num = int(num)
+    is_even(num)
+    num = input("Enter a number: ")
 
 # YOUR CODE HERE
 
