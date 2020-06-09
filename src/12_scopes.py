@@ -5,7 +5,12 @@
 x = 12
 
 def change_x():
-    x = 99
+    x = 2
+    def inner():
+        nonlocal x
+        x = 99
+        print("inner:", x)
+    inner()
 
 change_x()
 
@@ -19,7 +24,9 @@ def outer():
     y = 120
 
     def inner():
+        nonlocal y
         y = 999
+
 
     inner()
 
