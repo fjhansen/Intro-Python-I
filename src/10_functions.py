@@ -15,7 +15,7 @@ num = int(num)
 while num!= 777:
     num = int(num)
     is_even(num)
-    num = input("Enter a number: ")
+    num = input("Enter a number!: ")
 
 # YOUR CODE HERE
 

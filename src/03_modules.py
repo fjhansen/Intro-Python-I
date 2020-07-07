@@ -26,7 +26,7 @@ import os
 
 # Print the current process ID
 
-print("PROCESS_ID: ", os.getpid())
+print("PROCESS_IDS: ", os.getpid())
 
 # Print the current working directory (cwd):
 
